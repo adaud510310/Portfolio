@@ -63,7 +63,7 @@ const About: React.FC = () => {
           {/* Image Section */}
           <div ref={imageRef} className="relative">
             <img
-              src="/public/img/laptop.png"
+              src="/img/laptop.png"
               alt="adaud"
               className="w-full h-auto rounded-lg shadow-lg"
             />
