@@ -44,7 +44,7 @@ export const projectData: Project[] = [
   {
     title: "System administrator",
     description: " System administrators - Sysadmins support, troubleshoot, and maintain computer servers and networks.",
-    imageUrl: "/public/img/work-08.jpg",
+    imageUrl: "/img/work-08.jpg",
     useSwiper: true,
   },
 ];
