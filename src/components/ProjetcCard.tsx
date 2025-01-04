@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import SwiperComponent from "./Swiper";
+import NewSwiper from "./NewSwiper";
 
 type ProjectCardProps = {
   title: string;
@@ -52,10 +52,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
               <div className="absolute inset-0 bg-gold transition-transform transform translate-x-full group-hover:translate-x-0"></div>
             </button>
             {isSwiperOpen && (
-              <SwiperComponent
-                isOpen={isSwiperOpen}
-                setIsOpen={setIsSwiperOpen}
-              />
+              <NewSwiper isOpen={isSwiperOpen} setIsOpen={setIsSwiperOpen} />
             )}
           </>
         ) : (
