@@ -7,44 +7,44 @@ type Project = {
 };
 export const projectData: Project[] = [
   {
-    title: "Wild Oasis App",
+    title: "Application",
     description:
-      "A web app for booking cabin rentals with real-time availability.",
-    imageUrl: "/Tech/WO.png",
-    projectLink: "https://github.com/AceOne4/wildoasis-app",
+      "An application (more commonly known as an app) is a piece of software that bundles together certain features in a way that is accessible to a user..",
+    imageUrl: "/public/img/work 09.jpg",
+    projectLink: "#",
   },
   {
-    title: "AceSchool Dashboard",
+    title: "ZKBio Time",
     description:
-      "A school management system for grades, attendance, and communication.",
-    imageUrl: "/Tech/AS.png",
-    projectLink: "https://github.com/AceOne4/next-dashboard-ui",
+      "Software to monitor employees - Monitoring Software for Work.",
+    imageUrl: "/public/img/work-01.jpg",
+    projectLink: "#",
   },
   {
-    title: "CarePlus App",
+    title: "Responsive",
     description:
-      "A platform for managing healthcare appointments for patients and administrators.",
-    imageUrl: "/Tech/CP.png",
-    projectLink: "https://github.com/AceOne4/CarePlus",
+      "A responsive design adapts the web-page layout to the viewing environment by using techniques such as fluid proportion-based grids, flexible images.",
+    imageUrl: "/public/img/work-02.jpg",
+    projectLink: "https://adaud510310.github.io/alfaisaly-card/",
   },
   {
-    title: "E-commerce App",
+    title: "ubnt",
     description:
-      "An e-commerce platform for managing favorites, shopping carts, and orders.",
-    imageUrl: "/Tech/EC.png",
-    projectLink: "https://github.com/AceOne4/E-comarce",
+      "UniFi is building the future of IT. Industry-leading products magically unified in an incredible.",
+    imageUrl: "/public/img/work-04.jpg",
+    projectLink: "#",
   },
   {
-    title: "Awward",
+    title: "Network",
     description:
-      "Awward is a gaming app with great visuals and smooth animations using GSAP. It offers a fun experience for all ages",
-    imageUrl: "/Tech/AW.png",
-    projectLink: "https://github.com/AceOne4/Awward",
+      "A network consists of two or more computers that are linked in order to share resources.",
+    imageUrl: "/public/img/work-06.jpg",
+    projectLink: "#",
   },
   {
-    title: "New Giza Project",
-    description: "A project showcasing the New Giza development.",
-    imageUrl: "/NewGiza/1.png",
+    title: "System administrator",
+    description: " System administrators - Sysadmins support, troubleshoot, and maintain computer servers and networks.",
+    imageUrl: "/public/img/work-08.jpg",
     useSwiper: true,
   },
 ];
@@ -154,19 +154,19 @@ export const images = [
 
 export const skills = [
   // Tech skills
-  { title: "React.js", level: 90 },
-  { title: "Next.js", level: 85 },
-  { title: "Tailwind CSS", level: 80 },
-  { title: "GSAP", level: 70 },
-  { title: "MongoDB", level: 75 },
-  { title: "Mongoose", level: 70 },
-  { title: "RESTful API", level: 85 },
-  { title: "Node.js", level: 80 },
+  { title: "UI/UX", level: 85 },
+  { title: "Administror", level: 90 },
+  { title: "Network", level: 90 },
+  { title: "Wordpress", level: 70 },
+  { title: "Front-end development", level: 75 },
+  { title: "Cloud management", level: 70 },
+  { title: "Operating systems", level: 85 },
+  { title: "Security", level: 80 },
   // Civil skills
-  { title: "AutoCAD", level: 75 },
-  { title: "Revit", level: 80 },
-  { title: "SAP2000", level: 70 },
-  { title: "ETABS", level: 65 },
+  { title: "Photoshop", level: 75 },
+  { title: "Hardware Knowledge", level:90 },
+  { title: "Software Knowledge ", level: 85 },
+  { title: "Database  ", level: 65 },
   // Soft skills
   { title: "Communication", level: 95 },
   { title: "Teamwork", level: 90 },

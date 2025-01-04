@@ -1,7 +1,11 @@
 import ServiceCard from "./ServiceCard";
 import { FaLaptopCode, FaHardHat } from "react-icons/fa";
-import { GiConcreteBag } from "react-icons/gi";
+import { PiShareNetwork } from "react-icons/pi";
 import { SiTailwindcss, SiReact, SiSpeedtest } from "react-icons/si";
+import { FaNetworkWired } from "react-icons/fa";
+import { GrUserAdmin } from "react-icons/gr";
+
+
 
 const Services = () => {
   return (
@@ -10,14 +14,14 @@ const Services = () => {
         <h2 className="text-3xl font-bold mb-8">My Services</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           <ServiceCard
-            icon={<FaHardHat className="w-12 h-12 mx-auto" />}
-            title="Site Planning and Management"
-            description="Expert site planning and management for efficient project execution."
+            icon={<FaNetworkWired className="w-12 h-12 mx-auto" />}
+            title="Network service"
+            description="ach service is usually provided by a server component running on one or more computers."
           />
           <ServiceCard
-            icon={<GiConcreteBag className="w-12 h-12 mx-auto" />}
-            title="Construction Supervision"
-            description="Ensuring quality and safety through diligent construction supervision."
+            icon={<GrUserAdmin className="w-12 h-12 mx-auto" />}
+            title="administrtors"
+            description="An administrator is a person whose job involves helping to organize and supervise the way that an organization or institution functions. Synonyms."
           />
           <ServiceCard
             icon={<FaLaptopCode className="w-12 h-12 mx-auto" />}
@@ -36,9 +40,9 @@ const Services = () => {
             description="Optimizing web performance for faster load times and better user experience."
           />
           <ServiceCard
-            icon={<SiTailwindcss className="w-12 h-12 mx-auto" />}
-            title="Tailwind CSS Styling and Implementation"
-            description="Implementing modern and responsive designs using Tailwind CSS."
+            icon={<PiShareNetwork  className="w-12 h-12 mx-auto" />}
+            title="Ubiquiti"
+            description="UniFi is building the future of IT. Industry-leading products magically unified in an incredible software interface with scalable."
           />
         </div>
       </div>

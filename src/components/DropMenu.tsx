@@ -14,7 +14,7 @@ function DropMenu() {
         <IoMdMenu size={30} />
       </button>
       {isOpen && (
-        <div className="absolute left-0 mt-2 w-28 bg-transparents shadow-lg rounded backdrop-blur-md z-10 ">
+        <div className="absolute left-0 mt-2 w-28 bg-[#0d5e19] shadow-lg rounded backdrop-blur-md z-10 ">
           <ul className="flex flex-col text-lg gap-1 p-2 font-semibold">
             <li>
               <Link

@@ -63,8 +63,8 @@ const About: React.FC = () => {
           {/* Image Section */}
           <div ref={imageRef} className="relative">
             <img
-              src="/Avi.png"
-              alt="Ahmed"
+              src="/public/img/laptop.png"
+              alt="adaud"
               className="w-full h-auto rounded-lg shadow-lg"
             />
             <div className="absolute inset-0 bg-gold opacity-0 hover:opacity-10 rounded-lg transition-opacity duration-300"></div>
@@ -73,31 +73,42 @@ const About: React.FC = () => {
           {/* Content Section */}
           <div ref={contentRef}>
             <p className="text-lg text-gray-700 mb-4">
-              Hello! I'm Ahmed, a passionate professional with expertise in two
-              dynamic fields:{" "}
-              <span className="font-semibold text-gold">Civil Engineering</span>{" "}
+              Hi, I’m Atif! My professional journey has been shaped by two
+              distinct yet complementary fields:{" "}
+              <span className="font-semibold text-gold">IT Infrastructure</span>{" "}
               and{" "}
-              <span className="font-semibold text-gold">
-                Front-End Development
-              </span>
-              . With over seven years of experience as a Senior Site Engineer,
-              I’ve managed complex construction projects, ensured structural
-              integrity, and optimized designs for efficiency and safety.
+              <span className="font-semibold text-gold">Web Development</span>.
+              I’m passionate about solving problems, building systems, and
+              creating solutions that drive efficiency and innovation.
             </p>
             <p className="text-lg text-gray-700 mb-4">
-              In the world of technology, I specialize in crafting engaging user
-              interfaces using modern tools like{" "}
-              <span className="font-semibold text-gold">React</span> and{" "}
-              <span className="font-semibold text-gold">Tailwind CSS</span>. My
-              journey in software development began with the desire to create
-              interactive applications that enhance user experiences and solve
-              real-world problems.
+              In the realm of IT, I have extensive experience in managing{" "}
+              <span className="font-semibold text-gold">servers</span>,
+              maintaining{" "}
+              <span className="font-semibold text-gold">networks</span>, and
+              ensuring the smooth operation of critical infrastructure. From
+              setting up secure systems to troubleshooting complex technical
+              issues, I thrive on keeping systems reliable, efficient, and
+              secure.
+            </p>
+            <p className="text-lg text-gray-700 mb-4">
+              On the web development front, I specialize in crafting beautiful,
+              functional, and responsive websites. My expertise in{" "}
+              <span className="font-semibold text-gold">WordPress</span> allows
+              me to build and customize websites that meet unique business
+              needs, while my knowledge of{" "}
+              <span className="font-semibold text-gold">React</span>,{" "}
+              <span className="font-semibold text-gold">HTML</span>,{" "}
+              <span className="font-semibold text-gold">CSS</span>, and{" "}
+              <span className="font-semibold text-gold">JavaScript</span>{" "}
+              enables me to push boundaries and bring innovative ideas to life.
             </p>
             <p className="text-lg text-gray-700">
-              I thrive on learning new skills and merging my knowledge from both
-              fields to build innovative solutions. Whether it's optimizing
-              construction workflows or developing responsive web applications,
-              I’m driven by a commitment to excellence and creativity.
+              Whether it’s managing IT systems to ensure seamless performance or
+              designing user-friendly websites that leave a lasting impression,
+              I bring dedication, creativity, and a commitment to excellence to
+              everything I do. I’m always eager to explore new challenges, learn
+              new technologies, and make a meaningful impact through my work.
             </p>
           </div>
         </div>

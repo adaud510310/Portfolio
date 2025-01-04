@@ -1,30 +1,12 @@
 import { Link } from "react-scroll";
-import { useEffect, useState } from "react";
 import DropMenu from "./DropMenu";
 
 const Navbar = () => {
-  const [isScrolled, setIsScrolled] = useState(false);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      const heroSection = document.getElementById("hero");
-      if (heroSection) {
-        const heroHeight = heroSection.offsetHeight;
-        setIsScrolled(window.scrollY > heroHeight);
-      }
-    };
-
-    window.addEventListener("scroll", handleScroll);
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
+  
 
   return (
     <nav
-      className={`fixed z-50 top-0 w-full bg-transparent backdrop-blur-md ${
-        isScrolled ? "text-black" : "text-white"
-      }`}
+      className={`fixed z-50 top-0 w-full bg-[#0d5e19] backdrop-blur-md text-white `}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ">
         <ul className="hidden md:flex justify-between py-4 text-lg font-semibold">
@@ -33,9 +15,7 @@ const Navbar = () => {
               to="hero"
               smooth={true}
               duration={500}
-              className={`cursor-pointer hover:text-gold ${
-                isScrolled ? "text-black" : "text-white"
-              }`}
+              className={`cursor-pointer hover:text-gold `}
             >
               Home
             </Link>
@@ -45,9 +25,7 @@ const Navbar = () => {
               to="about"
               smooth={true}
               duration={500}
-              className={`cursor-pointer hover:text-gold ${
-                isScrolled ? "text-black" : "text-white"
-              }`}
+              className={`cursor-pointer hover:text-gold `}
             >
               About
             </Link>
@@ -57,9 +35,7 @@ const Navbar = () => {
               to="services"
               smooth={true}
               duration={500}
-              className={`cursor-pointer hover:text-gold ${
-                isScrolled ? "text-black" : "text-white"
-              }`}
+              className={`cursor-pointer hover:text-gold `}
             >
               Services
             </Link>
@@ -69,9 +45,7 @@ const Navbar = () => {
               to="skills"
               smooth={true}
               duration={500}
-              className={`cursor-pointer hover:text-gold ${
-                isScrolled ? "text-black" : "text-white"
-              }`}
+              className={`cursor-pointer hover:text-gold `}
             >
               Skills
             </Link>
@@ -81,9 +55,7 @@ const Navbar = () => {
               to="projects"
               smooth={true}
               duration={500}
-              className={`cursor-pointer hover:text-gold ${
-                isScrolled ? "text-black" : "text-white"
-              }`}
+              className={`cursor-pointer hover:text-gold `}
             >
               Projects
             </Link>
@@ -93,9 +65,7 @@ const Navbar = () => {
               to="contact"
               smooth={true}
               duration={500}
-              className={`cursor-pointer hover:text-gold ${
-                isScrolled ? "text-black" : "text-white"
-              }`}
+              className={`cursor-pointer hover:text-gold `}
             >
               Contact
             </Link>
@@ -108,9 +78,7 @@ const Navbar = () => {
             to="hero"
             smooth={true}
             duration={500}
-            className={`cursor-pointer hover:text-gold ${
-              isScrolled ? "text-black" : "text-white"
-            }`}
+            className={`cursor-pointer hover:text-gold `}
           >
             Home
           </Link>
