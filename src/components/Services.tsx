@@ -1,7 +1,7 @@
 import ServiceCard from "./ServiceCard";
-import { FaLaptopCode, FaHardHat } from "react-icons/fa";
+import { FaLaptopCode,  } from "react-icons/fa";
 import { PiShareNetwork } from "react-icons/pi";
-import { SiTailwindcss, SiReact, SiSpeedtest } from "react-icons/si";
+import {  SiReact, SiSpeedtest } from "react-icons/si";
 import { FaNetworkWired } from "react-icons/fa";
 import { GrUserAdmin } from "react-icons/gr";
 
