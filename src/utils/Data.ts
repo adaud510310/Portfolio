@@ -10,35 +10,35 @@ export const projectData: Project[] = [
     title: "Application",
     description:
       "An application (more commonly known as an app) is a piece of software that bundles together certain features in a way that is accessible to a user..",
-    imageUrl: "/public/img/work 09.jpg",
+    imageUrl: "/img/work 09.jpg",
     projectLink: "#",
   },
   {
     title: "ZKBio Time",
     description:
       "Software to monitor employees - Monitoring Software for Work.",
-    imageUrl: "/public/img/work-01.jpg",
+    imageUrl: "/img/work-01.jpg",
     projectLink: "#",
   },
   {
     title: "Responsive",
     description:
       "A responsive design adapts the web-page layout to the viewing environment by using techniques such as fluid proportion-based grids, flexible images.",
-    imageUrl: "/public/img/work-02.jpg",
+    imageUrl: "/img/work-02.jpg",
     projectLink: "https://adaud510310.github.io/alfaisaly-card/",
   },
   {
     title: "ubnt",
     description:
       "UniFi is building the future of IT. Industry-leading products magically unified in an incredible.",
-    imageUrl: "/public/img/work-04.jpg",
+    imageUrl: "/img/work-04.jpg",
     projectLink: "#",
   },
   {
     title: "Network",
     description:
       "A network consists of two or more computers that are linked in order to share resources.",
-    imageUrl: "/public/img/work-06.jpg",
+    imageUrl: "/img/work-06.jpg",
     projectLink: "#",
   },
   {
